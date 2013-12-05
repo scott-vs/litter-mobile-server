@@ -1,0 +1,16 @@
+{
+  "name":    "litter-mobile-server",
+  "version": "0.0.1",
+
+  "description": "Litter Mobile Server",
+
+  "dependencies": {
+    "restify": "2.5.1",
+    "pg": "2.x"
+  },
+
+  "engines": {
+    "node": "0.8.x",
+	"npm":  "1.1.x"
+  }
+}

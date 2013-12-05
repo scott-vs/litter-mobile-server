@@ -1,0 +1,41 @@
+[
+	{"userName" : "Wild_Tiger",
+	 "realName" : "Tiger",
+	 "password" : "46e3d772a1888eadff26c7ada47fd7502d796e07",
+	 "toy" : "empty cups",
+	 "spot" :"chair in front of window",
+	 "bgColor" : "#FFFFFF",
+	 "bio" : "I am Scott VonSchilling''s tabby cat.",
+	 "location" :"Harrison, NJ",
+	 "img":"http://img.photobucket.com/albums/v90/thescott18/ScreenShot2013-12-04at101358PM.png",
+	 "messages":[
+	 	"Where is the red dot?!", "Is it time for food yet?"
+	 ]
+	},
+    {"userName" : "Classy_Mimi",
+	 "realName" : "Nekomimi",
+	 "password" : "76b7f49ce0dcdd42748690dcf4f2059bec919bd1",
+	 "toy" : "twist ties",
+	 "spot" : "on top of the couch",
+	 "bgColor" : "#FFFFFF",
+	 "bio" : "I am NOT Scott VonSchilling''s cat. Scott VonSchilling is my human.",
+	 "location" : "Princeton, NJ",
+	 "img":"http://img.photobucket.com/albums/v90/thescott18/ScreenShot2013-12-04at101412PM.png",
+	 "messages":[
+	 	"Meow... I mean, hello.", "I am always dressed to impressed."
+	 ]
+	 },
+    {"userName" : "Zin_And_Only",
+	 "realName" : "Zinny",
+	 "password" : "03d3278856d5eb0875ded654272e339ebbca88b8",
+	 "toy" : "Mousey",
+	 "spot" : "on top of Michelle",
+	 "bgColor" : "#FFFFFF",
+	 "bio" : "I am Zinny. Hear me roar.",
+	 "location" : "Lancaster, PA",
+	 "img":"http://img.photobucket.com/albums/v90/thescott18/ScreenShot2013-12-04at101350PM.png",
+	 "messages":[
+	 	"So sleepy. Only got 20 hours of sleep today."
+	 ]
+	 }
+]
