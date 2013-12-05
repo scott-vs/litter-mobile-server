@@ -38,7 +38,7 @@ pg.connect(conString, function(err, client, done) {
   	insertQ += '\'' + data.bgColor + '\',';
   	insertQ += '\'' + data.bio + '\',';
   	insertQ += '\'' + data.img + '\',';
-  	insertQ += '\'' + data.location + '\'';
+  	insertQ += '\'' + data.location + '\',';
   	insertQ += '\'' + data.website + '\'';
   	insertQ += ')';
   	
