@@ -28,7 +28,7 @@ pg.connect(conString, function(err, client, done) {
   
   for (var i in testData){
   	var data = testData[i];
-  	var insertQ = 'INSERT INTO LittUser(user_name, password, real_name, toy, spot, bg_color, bio, image_URL, location) VALUES (';
+  	var insertQ = 'INSERT INTO LittUser(user_name, password, real_name, toy, spot, bg_color, bio, image_URL, location, website) VALUES (';
   	//insertQ += i + ',';
   	insertQ += '\'' + data.userName + '\',';
   	insertQ += '\'' + data.password + '\',';
@@ -39,6 +39,7 @@ pg.connect(conString, function(err, client, done) {
   	insertQ += '\'' + data.bio + '\',';
   	insertQ += '\'' + data.img + '\',';
   	insertQ += '\'' + data.location + '\'';
+  	insertQ += '\'' + data.website + '\'';
   	insertQ += ')';
   	
   	client.query(insertQ);
