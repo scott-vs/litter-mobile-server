@@ -67,7 +67,7 @@ function postNewUser(req, res, next){
   }
   
   pg.connect(conString, function(err, client, done) {
-  	var insertQ = 'INSERT INTO LittUser(user_name, password, real_name, toy, spot, bg_color, bio, location, website) VALUES (';
+  	var insertQ = 'INSERT INTO LittUser(user_name, password, real_name, toy, spot, bg_color, bio, location, image_URL, website) VALUES (';
   	//insertQ += i + ',';
   	insertQ += '\'' + req.params.userName + '\',';
   	insertQ += '\'' + req.params.password + '\',';
@@ -77,6 +77,7 @@ function postNewUser(req, res, next){
   	insertQ += '\'' + req.params.bgColor + '\',';
   	insertQ += '\'' + req.params.bio + '\',';
   	insertQ += '\'' + req.params.location + '\',';
+  	insertQ += '\'http://www.redrovercamping.com/sites/all/themes/rr2/images/default_usr.png\',';
   	insertQ += '\'' + req.params.website + '\'';
   	insertQ += ')';
   	
