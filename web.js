@@ -147,14 +147,3 @@ var PORT = process.env.PORT || 5000;
 server.listen(PORT, function() {
   console.log('%s listening at %s', server.name, server.url);
 });
-
-var pg = require('pg');
-
-pg.connect(process.env.DATABASE_URL || 'postgres://localhost:5432/', function(err, client, done) {
-  client.query('SELECT * FROM my_table', function(err, result) {
-    done();
-    if(err) return console.error(err);
-    console.log(result.rows);
-  });
-  
-});
