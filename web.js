@@ -81,8 +81,7 @@ function postNewUser(req, res, next){
   	insertQ += '\'' + req.params.website + '\'';
   	insertQ += ')';
   	
-  	client.query(insertQ);
-	client.query(insertQ, function(err, result) {
+  	client.query(insertQ, function(err, result) {
 		done();
 		var returnObject = {};
     	if(err) {
